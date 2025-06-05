@@ -8,4 +8,4 @@ with tf.GradientTape() as tape:
 
 dy_dx = tape.gradient(y,x)
 
-print(dy_dx)
+print(dy_dx,dy_dx.device)
