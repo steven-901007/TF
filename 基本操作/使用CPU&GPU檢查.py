@@ -6,7 +6,7 @@ import tensorflow as tf
 a = tf.Variable(1)
 b = tf.Variable(10.)
 
-# print(a.device,a) #CUP
+print(a.device,a) #CUP
 print(b.device,b) #GPU
 
 c = tf.constant(10)
